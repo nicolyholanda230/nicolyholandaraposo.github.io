@@ -9,17 +9,18 @@
    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">  
    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+   <link rel="stylesheet" type="text/css" href="css/estilo.css">
    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" 
    rel="stylesheet">
-   <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="img/mlogo.png">
 
     <title>Musicalize-se</title>
   </head>
-
+  <body class="gradiente">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-info">
 
         <a class="navbar-brand" href="index.html">
-    <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"></a>
+    <img src="img/mlogo.png" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy"></a>
     
     <a class="navbar-brand" href="index.htmal">Musicalize-se</a>
 
@@ -35,21 +36,16 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#">Sobre</a>
+        <a class="nav-link" href="#Sobre">Sobre</a>
       </li>
 
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cantores da MPB</a>
 
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="">Maria Bethânia</a>
-        <a class="dropdown-item" href="">Rita Lee</a>
-        <a class="dropdown-item" href="">Erasmo Carlos</a>
-        <a class="dropdown-item" href="">Caetano Veloso</a>
-        <a class="dropdown-item" href="">Elis Regina</a>
-        <a class="dropdown-item" href="">Chico Buarque</a>
-        <a class="dropdown-item" href="">Liniker</a>
-        <a class="dropdown-item" href="">Rodrigo Alarcon</a>
+        <a class="dropdown-item" href="#maria">Maria Bethânia</a>
+        <a class="dropdown-item" href="#cv">Caetano Veloso</a>
+        <a class="dropdown-item" href="#er">Elis Regina</a>
         </div>
        
       </li>
@@ -62,10 +58,9 @@
   </div>
     </nav>
 
-    <br>
-    <br>
+    
 
-
+    <div class="naoentra">
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
   
   <ol class="carousel-indicators">
@@ -78,8 +73,8 @@
     <div class="carousel-item active">
       <img src="img/artistas.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h4>A Música Popular Brasileira</h4>
-        <p>Nesta imagem podemos ver vários artistas da MPB</p>
+        <h4>Cantores da Música Popular Brasileira</h4>
+        <p>Hoje vamos conhecer um pouco sobre três cantores da MPB, lembrando que existem muitos outros, que são super talentosos.</p>
       </div>
      </div>
 
@@ -87,26 +82,28 @@
       <img src="img/mb.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h4>Maria Bethânia</h4>
-        <p>Cantora e compositora brasileira, uma artista muito marcante na MPB.</p>
+        <p>Cantora e compositora brasileira, uma artista mais do que marcante na MPB.</p>
       </div>
     </div>
 
     <div class="carousel-item">
-      <img src="img/li.jpg" class="d-block w-100" alt="...">
+      <img src="img/caetano.jpeg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h4>Liniker</h4>
-        <p>Uma cantora e compositora brasileira sensacional, uma mulher trans e negra que inspira inúmeras pessoas.</p>
+        <h4>Caetano Veloso</h4>
+        <p>Um músico, produtor, arranjador e escritor brasileiro. Com uma carreira que ultrapassa cinco décadas.</p>
       </div>
     </div>
 
     <div class="carousel-item">
-      <img src="img/rodrigo.jpg" class="d-block w-100" alt="...">
+      <img src="img/elis.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h4>Rodrigo Alarcon</h4>
-        <p>Considerado a nova cara da Música Popular Brasileira, um cantor talentosíssimo.</p>
+        <h4>Elis Regina</h4>
+        <p>É considerada por muitos críticos a melhor cantora popular do Brasil enquanto em vida.
+        </p>
       </div>
     </div>
   </div>
+</div>
   
   <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -117,23 +114,109 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+ 
 
-  <body>
-    <h1>Hello, world!</h1>
+
+
+   <main class="gradiente">
+      <div id="Sobre" class="gradiente">
+        <section>
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-3 col-lg-3 d-none d-md-block">
+                <div class="p-4">
+                  <div class="mpb">
+                  <img class="img-fluid" src="img/mpb.jpg">
+                  </div>
+                </div>
+              </div>
+                  <div class="col-md-9 col-lg-9">
+                    <div class="p-4">
+                      <h4 class="display-5">A Música Popular Brasileira</h4>
+                      <div class="ano"><span data-toggle="counter-up">1960</span></div>
+                      <p align="justify">A Música Popular Brasileira, conhecida como MPB, surgiu durante a Ditadura Militar no Brasil, na década de 60, e como uma nova opção de estilo musical, logo após a Bossa Nova. A MPB reflete a reunião de ritmos e movimentos musicais já presentes no país, trazendo um novo conceito de “música nacional”.</p>
+                      <p align="justify">A MPB surgiu com novos compositores e intérpretes, além de um novo ritmo, algo que não era samba, não era bossa nova, mas mantinha características como a suavidade e o regionalismo já presente nesses ritmos.</p>
+                      <p align="justify">Os maiores impulsionadores desse novo ritmo foram os festivais de música que faziam grande sucesso na televisão. Nesse momento, surgiram artistas como Elis Regina, Milton Nascimento, Chico Buarque, Edu Lobo, entre outros. A MPB ficou conhecida no país como “a música da universidade”, por ter o seu maior público entre intelectuais e estudantes.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>  
+
+
+    <div id="#maria" class="maria">
+      <h5 class="display-5">Maria Bethânia</h5>
+      <div class="mb">
+      <img src="img/mbb.jpg">
+    </div>
+                      <p align="justify">Maria Bethânia Viana Teles Veloso é uma cantora e compositora brasileira. Na juventude, Maria Bethânia participou de peças teatrais ao lado de seu irmão, o também cantor e compositor Caetano Veloso, você verá mais sobre ele abaixo, e de outros cantores proeminentes da época.</p>
+
+                      <p align="justify">Nasceu em 1946, na cidade baiana de Santo Amaro da Purificação. Seu nome foi sugestão do irmão Caetano Veloso, que na época tinha apenas quatro anos de idade. É filha do Senhor José Telles Velloso e de Claudionor Vianna Telles Velloso, a Dona Canô.</p>
+                      
+                      <p align="justify">Desde cedo, Bethânia dizia à mãe que queria ser artista. Queria ser atriz e chegou a atuar em algumas montagens, mas a presença do irmão Caetano a influenciou para seguir a música. Em 1963, seus caminhos entre o teatro e a música começaram a se misturar quando ela subiu ao palco pela primeira vez para cantar. Na ocasião, Caetano foi convidado pelo amigo Álvaro Guimarães, Alvinho, para musicar a peça "Boca de Ouro", de Nelson Rodrigues.</p>
+                      <p align="justify">No mesmo ano, Bethânia e Caetano conheceram artistas como Gilberto Gil, Gal Costa e Tom Zé, que se tornariam parceiros de arte e de vida. Dois anos mais tarde, em 1965, Bethânia se mudou para o Rio de Janeiro a convite de Nara Leão para a peça "Opinião", e em pouco tempo lançou o disco Maria Bethânia, com a música "Carcará", que se tornou um grande sucesso. </p>
+
+                      <p align="justify">Sua carreira é marcada pela forte presença nos palcos e o lançamento de diversos álbuns. Em 1975, se encontrou com Chico Buarque e, juntos, eles lançaram o disco Chico Buarque e Maria Bethânia, que foi gravado ao vivo no tradicional Canecão, no Rio de Janeiro.</p>
+
+                      <p align="justify">Em 1976, Bethânia, Caetano, Gilberto Gil e Gal Costa uniram seus talentos para formar o grupo Os Doces Bárbaros. A trajetória dos quatro artistas ficou registrada em um filme e tem um álbum duplo homônimos, lançados naquele ano.</p>
+    </div>
+
+     <div id="#caetano" class="caetano">
+      <h5 class="display-5">Caetano Veloso</h5>
+      <div class="mb">
+      <img src="img/cvv.jpg">
+    </div>
+                      <p align="justify">Caetano Veloso (1942) é um músico brasileiro, um dos criadores do Movimento Tropicalista no Brasil, sendo um dos músicos mais influentes do país. Criou e cantou canções de destaque como “Sozinho” (intérprete), “Leãozinho”, “Você é Linda” e "Sampa”.</p>
+
+                      <p align="justify">Em 1960, a família voltou à Bahia, indo morar em Salvador. Nessa época, Caetano Veloso ganhou um violão e passou a cantar com sua irmã Maria Bethânia, em bares de Salvador. Ingressou na Faculdade de Filosofia da Universidade Federal da Bahia. Em 1964 participou do show ”Nós, por exemplo”, ao lado de Gal Costa, Gilberto Gil, Bethânia e Tom Zé, na inauguração do Teatro Vila Velha.</p>
+                      
+                      <p align="justify">Em 1965, Caetano voltou para o Rio de Janeiro acompanhando a irmã, convidada para participar do show Opinião. Nesse ano, compõe “Boa Palavra”, que é interpretada por Maria Odete e classifica em quinto lugar no II Festival de Música Popular Brasileira da TV Record. Em 1967, ao lado de Gal Costa, Caetano grava “Domingo”, seu primeiro disco. A música “Alegria, Alegria” é classificada em quarto lugar no III Festival de MPB da TV Record.</p>
+
+                      <p align="justify">Em 1967, Caetano Veloso se apresentou no III Festival da Música Popular Brasileira, da TV Record, quando cantou “Alegria, Alegria”, acompanhado pela banda de rock os Beat Boys, incomodando os conservadores, mesmo assim conquistou o 4º lugar, se tornando o marco inicial do Tropicalismo - movimento que participavam Caetano, Gil, Gal, Tom Zé e Torquato Neto, que unia ritmos regionais e guitarras elétricas que transformou a MPB.</p>
+
+                      <p align="justify">Na década de 80, Caetano Veloso continuou fazendo shows e lançando discos, entre eles, “Outras Palavras” (1981), “Caetanear” (1985) e “Totalmente Demais” (1986). Ao lado de Chico Buarque, apresentou na televisão, o programa “Chico & Caetano”, onde cantava e recebia convidados.</p>
+
+                      <p align="justify">Em 1992, Caetano completou 50 anos e comemorou com o lançamento do álbum Circulandô, que recebeu o Prêmio Sharp de melhor canção, intérprete e projeto visual. Em 1997, lança o livro “Verdade Tropical”, onde descreve sua formação musical e seu trabalho como cantor e compositor. Seus últimos álbuns lançados foram: "Zii e Zie" (2009), "Abraçaço" (2012).Caetano Veloso tem canções em trilhas sonoras de filmes como Hable com Ella, de Pedro Almodover e em Frida, de Julie Taymor.</p>
+    </div>
+
+      <div id="#elis" class="elis">
+      <h5 class="display-5">Elis Regina</h5>
+      <div class="mb">
+      <img src="img/el.jpg">
+    </div>
+                      <p align="justify">Elis Regina (1945-1982) foi uma cantora brasileira, considerada por muitos como a melhor cantora brasileira de todos os tempos. Sua morte precoce a transformou em mito. Diversas canções foram eternizadas na sua voz, entre elas: Águas de Março, Casa no Campo e Como Nossos Pais.</p>
+
+                      <p align="justify">Em 1960 foi contratada pela Rádio Gaúcha. Nesse mesmo ano foi eleita a “Melhor Cantora do Rádio”. Em 1961, com 16 anos, viajou para o Rio de Janeiro onde lançou seu primeiro disco, "Viva a Brotolândia".Em 1964, já se apresentava no eixo Rio São Paulo. Assinou contrato com a TV Rio, para se apresentar no programa "Noite de Gala". Sob a direção de Luís Carlos Miele e Ronaldo Bôscoli.</p>
+                      
+                      <p align="justify">Nessa época, Elis criou os gestos que se tornaram sua marca registrada. Quando cantava, levantava os braços e girava-os. Também se apresentava no "Beco das Garrafas", reduto da Bossa Nova.Ainda em 1964, Elis muda-se para São Paulo. Em 1965, fez a sua estreia no festival da Record com a música “Arrastão”, de Edu Lobo e Vinícius de Moraes.</p>
+
+                      <p align="justify">Era uma artista eclética, interpretava canções de vários estilos, como MPB, jazz, rock, bossa nova e samba. Levou à fama, cantores importantes como Milton Nascimento, João Bosco e Ivan Lins. Fez dueto com Tom Jobim, Jair Rodrigues, entre outros.Entre os seus álbuns destacam-se: Ela (1971), Elis e Tom (1974), Falso Brilhante (1976), Essa Mulher (1979), Saudade do Brasil (1980) e Elis (1980).</p>
+
+                      <p align="justify">Elis Regina foi encontrada no chão de seu quarto do seu apartamento no bairro dos Jardins, por seu namorado Samuel MacDowell, que arrombou a porta e tentou socorre-la, mas ela já chegou sem vida ao hospital. Elis Regina faleceu com apenas 36 anos, em São Paulo, no dia 19 de janeiro de 1982. Sua morte foi decorrente do consumo de cocaína e o uso exagerado da bebida alcoólica.</p>
+
+                     
+    </div>
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
    
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
-    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>  
+    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script> 
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
     crossorigin="anonymous"></script>
 
     <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>    
+    <script type="text/javascript" src="js/bootstrap.js"></script>  
+    <script type="text/javascript" src="js/counterup.min.js"></script>    
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>   
+    
 
   </body>
 </html>

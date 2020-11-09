@@ -58,7 +58,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #ffff;
   text-align: left;
   background-color: #fff;
 }
@@ -414,6 +414,12 @@ h6, .h6 {
   line-height: 1.2;
 }
 
+.display-5 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -472,7 +478,7 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 180%;
   height: auto;
 }
 
